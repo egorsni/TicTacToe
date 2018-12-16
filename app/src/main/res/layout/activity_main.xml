@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Крестики    нолики"
+                android:textSize="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/x"
+    android:text="0"
+    android:textSize="100dp"
+     />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="100dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/o"
+                android:textSize="100dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c00"
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp" />
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c01" />
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c02" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c10" />
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c11" />
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c20" />
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c21" />
+
+            <Button
+                android:autoSizeTextType="uniform"
+                android:textSize="15dp"
+                android:id="@+id/button6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="c22" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit Game"
+        android:onClick="exit"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Score"
+            android:onClick="reset"/>
+    </LinearLayout>
+    </LinearLayout>
+
