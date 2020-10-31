@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC00(c00);
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             }
             System.out.println(winner);
             if (winner == "none") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победила дружба!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "Friendship win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
 
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC22(c22);
@@ -184,7 +184,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -263,7 +263,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC21(c21);
@@ -272,7 +272,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -280,7 +280,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -355,7 +355,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC20(c20);
@@ -363,7 +363,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -371,7 +371,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -442,7 +442,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC12(c12);
@@ -451,7 +451,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -459,7 +459,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -530,7 +530,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC11(c11);
@@ -539,7 +539,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -547,7 +547,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -618,7 +618,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC10(c10);
@@ -627,7 +627,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -635,7 +635,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -706,7 +706,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();        }
         player.setC02(c02);
@@ -715,7 +715,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -723,7 +723,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
@@ -795,7 +795,7 @@ public class MainActivity extends AppCompatActivity {
             player.setCurrentPlayer(currentPlayer);
             System.out.println(player.getCurrentPlayer());
         } else {
-            Toast toast = Toast.makeText(getApplicationContext(), "Клетка занята", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(getApplicationContext(), "This cell is occupied", Toast.LENGTH_SHORT);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();
         }
@@ -805,7 +805,7 @@ public class MainActivity extends AppCompatActivity {
         win = player.getWin();
         if (win == 1) {
             if (winner == "X") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа крестиков!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "X win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 xwin = player.getXwin();
@@ -813,7 +813,7 @@ public class MainActivity extends AppCompatActivity {
                 player.setXwin(xwin);
             }
             if (winner == "O") {
-                Toast toast = Toast.makeText(getApplicationContext(), "Победа ноликов!", Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(getApplicationContext(), "O win!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
                 owin = player.getOwin();
